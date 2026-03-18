@@ -1,0 +1,4 @@
+strands-agents[a2a]
+strands-agents-tools[a2a_client]
+httpx
+uvicorn
