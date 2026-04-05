@@ -14,7 +14,7 @@ def greet(name: str) -> str:
 
 # Initialize the LLM via Bedrock
 llm = init_chat_model(
-    "anthropic.claude-3-haiku-20240307-v1:0",
+    "anthropic.claude-3-5-haiku-20241022-v1:0",
     model_provider="bedrock_converse",
 )
 
