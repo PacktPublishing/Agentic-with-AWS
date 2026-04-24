@@ -75,3 +75,5 @@ Going to production with complex workflows?   → LangGraph
 ```bash
 pip install -r requirements.txt
 ```
+
+> **Note on Bedrock model access:** Models require explicit access in the AWS Console (Bedrock → Model Access). Access can expire after 15 days of inactivity — if you get a `ResourceNotFoundException: Legacy model` error, re-enable the model or switch to `us.amazon.nova-lite-v1:0` which is always available without approval.
