@@ -1,4 +1,4 @@
-# Agentic with AWS
+# AI Agents on AWS
 
 A collection of examples for building agentic AI applications using AWS services including Amazon Bedrock, SageMaker, and AgentCore.
 
